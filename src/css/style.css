@@ -6,7 +6,8 @@ body {
 }
 body::before{
     content: '';
-    background-image: url(../imagens/back-toy.jpg);
+    /* background-image: url(../imagens/back-toy.jpg); */
+    background-image: url(../imagens/back-aladdin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
