@@ -40,11 +40,16 @@ main {
     text-shadow: 5px 5px black;
 }
 
+
+
 .selecao-de-personagens {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     
+}
+.selecao-de-personagens.principal-selecionado{
+    display: flex;
 }
 
 .selecao-de-personagens .personagem-grande {
