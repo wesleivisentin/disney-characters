@@ -8,7 +8,9 @@ personagens.forEach((personagem) => {
        
        
         if(idSelecionado === "buzz-lightyear") {
-            idSelecionado = "buzz-lightyear2"
+            let imagemJogador = document.getElementById("personagem-jogador-1")
+            imagemJogador.src = `src/imagens/toy/${idSelecionado}2.png`
+            return
         }
 
 
