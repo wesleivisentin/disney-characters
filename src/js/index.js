@@ -18,23 +18,16 @@ personagens.forEach((personagem) => {
       
        
         if(idSelecionado === "buzz-lightyear") {
-            // let imagemJogador = document.getElementById("personagem-jogador-1")
-            // imagemJogador.src = `src/imagens/toy/${idSelecionado}2.png`
-
+           
             nomeP1("personagem-jogador-1", "toy")
-        
             return
         }
          else if(idSelecionado === "jasmine") {
-            // let imagemJogador = document.getElementById("personagem-jogador-11")
-            // imagemJogador.src = `src/imagens/alladin/${idSelecionado}2.png`
-            
+        
             nomeP1("personagem-jogador-11", "alladin")
             return
 
         }
-
-
 
 
         const personagemSelecionado = document.querySelector(".selecionado")
