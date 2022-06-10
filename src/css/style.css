@@ -1,13 +1,13 @@
-body {
+#background {
     font-family: "disney", Arial, Helvetica, sans-serif ;
     background: var(--cor-secundaria);
     cursor: url(/src/imagens/cursor.cur), default;
     
 }
-body::before{
+#background::before{
     content: '';
     /* background-image: url(../imagens/back-toy.jpg); */
-    background-image: url(../imagens/back-aladdin.jpg);
+    background-image: url(../imagens/back-alladin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;

@@ -40,7 +40,6 @@ personagens.forEach((personagem) => {
 
         }
 
-
         const personagemSelecionado = document.querySelector(".selecionado")
         
         personagemSelecionado.classList.remove("selecionado")
@@ -49,9 +48,9 @@ personagens.forEach((personagem) => {
 
 
         ///////
-        function trocarJogador(cb,cbb){
+        function trocarJogador(cb,){
             let imagemDoJoador = document.getElementById(cb)
-            imagemDoJoador.src = `src/imagens/${cbb}/${idSelecionado}.png`
+            imagemDoJoador.src = `src/imagens/chars/${idSelecionado}.png`
         }
 
         function trocarNome(cb1){
@@ -59,24 +58,16 @@ personagens.forEach((personagem) => {
             let nomeSelecionado = personagem.getAttribute("data-name")
             nomeDojogador.innerHTML = nomeSelecionado
         }
-
-        
-        
-        trocarJogador("personagem-jogador-1", "toy")
+      
+        trocarJogador("personagem-jogador-1" )
         trocarNome("nome-jogador-1")
-        trocarJogador("personagem-jogador-11", "alladin")
+        trocarJogador("personagem-jogador-11")
         trocarNome("nome-jogador-11")
 
- 
-
     })
-
 })
 
-
-
 // troca de desenho
-
 
 const cenarios = document.querySelectorAll(".desenho")
 const idCenario = document.querySelectorAll(".selecao-de-personagens")
@@ -114,16 +105,10 @@ const idCenario = document.querySelectorAll(".selecao-de-personagens")
 
 
 
-        // cenario.classList.add("selected")
-
-        // //////////////////
-        
-
-         
-        //  idCenario.attributes.id.value
-        //  console.log(idCenario)
+           
                 
             
+            document.getElementById("background::before").style.backgroundImage = "url('img_tree.png')";
 
 
          
