@@ -20,7 +20,7 @@ personagens.forEach((personagem) => {
         if(idSelecionado === "buzz-lightyear") {
            
         
-            imagemP1("personagem-jogador-1","toy", idSelecionado)
+            imagemP1("personagem-jogador-1","chars", idSelecionado)
             let nomeJogador1 = document.getElementById("nome-jogador-1")
             let nomeSelecionado = personagem.getAttribute("data-name")
             nomeJogador1.innerHTML = nomeSelecionado
@@ -31,7 +31,7 @@ personagens.forEach((personagem) => {
 
          else if(idSelecionado === "jasmine") {
         
-            imagemP1("personagem-jogador-11","alladin", idSelecionado)
+            imagemP1("personagem-jogador-11","chars", idSelecionado)
             let nomeJogador11 = document.getElementById("nome-jogador-11")
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
@@ -71,6 +71,7 @@ personagens.forEach((personagem) => {
 
 const cenarios = document.querySelectorAll(".desenho")
 const idCenario = document.querySelectorAll(".selecao-de-personagens")
+const backgrounCenario = document.querySelector("#background")
 
    cenarios.forEach((cenario)=> {
 
@@ -106,20 +107,30 @@ const idCenario = document.querySelectorAll(".selecao-de-personagens")
 
 
            
-                
+              
+            // document.getElementById("background").style.backgroundImage = `url("../imagens/back-${idSelecionado}.jpg")`;
             
-            document.getElementById("background::before").style.backgroundImage = "url('img_tree.png')";
 
 
-         
-        
+         document
+            
             
 
 
         })
+        
    })
-
-
+   
+//    backgrounCenario.style.backgroundImage = `url("../imagens/back-${idSelecionado}.jpg")`
 //    const cenarioSelecionadoPorJogador = document.querySelector(".principal-selecionado")
 //         cenarioSelecionadoPorJogador.classList.remove("principal-selecionado")
 //         cenario.classList.add("principal-selecionado")
+
+
+// const btn1 = document.querySelector("#toy-story") 
+
+// btn1.addEventListener("click", () =>{
+
+//     document.body.style.backgroundImage = `url("../imagens/back-toy-story.jpg")`;
+//     alert(document.body.style.backgroundImage);
+// })
