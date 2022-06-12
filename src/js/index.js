@@ -104,7 +104,7 @@ const backgrounCenario = document.querySelector("#background")
             cenarioAtivo.classList.add("selected")
 
 
-
+            document.querySelector("body").setAttribute("class", `${idSelecionado}`)
 
            
               
@@ -112,7 +112,7 @@ const backgrounCenario = document.querySelector("#background")
             
 
 
-         document
+         
             
             
 
