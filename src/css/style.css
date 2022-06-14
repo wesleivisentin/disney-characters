@@ -34,7 +34,12 @@ body {
 .alladin {
     background-image: url(../imagens/back-alladin.jpg);
 }
-
+.os-incriveis {
+    background-image: url(../imagens/back-os-incriveis.jpg);
+}
+.mickey-mouse {
+    background-image: url(../imagens/back-mickey.jpg);
+}
 
 main {
     min-height: 100vh;
