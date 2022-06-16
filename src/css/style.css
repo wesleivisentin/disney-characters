@@ -41,6 +41,12 @@ body {
     background-image: url(../imagens/back-mickey.jpg);
 }
 
+.princess {
+    background-image: url(../imagens/back-princess.jpg);
+}
+.villains {
+    background-image: url(../imagens/back-villains.jpg);
+}
 main {
     min-height: 100vh;
     display: flex;

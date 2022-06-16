@@ -59,6 +59,27 @@ personagens.forEach((personagem) => {
             return
 
         }
+        else if(idSelecionado === "cinderela") {
+        
+            imagemP1("personagem-jogador-4","chars", idSelecionado)
+            let nomeJogador11 = document.getElementById("nome-jogador-4")
+            let nomeSelecionadoo = personagem.getAttribute("data-name")
+            nomeJogador11.innerHTML = nomeSelecionadoo
+            
+            return
+
+        }
+
+        else if(idSelecionado === "rainha-ma") {
+        
+            imagemP1("personagem-jogador-5","chars", idSelecionado)
+            let nomeJogador11 = document.getElementById("nome-jogador-5")
+            let nomeSelecionadoo = personagem.getAttribute("data-name")
+            nomeJogador11.innerHTML = nomeSelecionadoo
+            
+            return
+
+        }
 
         const personagemSelecionado = document.querySelector(".selecionado")
         
@@ -87,6 +108,10 @@ personagens.forEach((personagem) => {
         trocarNome("nome-jogador-111")
         trocarJogador("personagem-jogador-3")
         trocarNome("nome-jogador-3")
+        trocarJogador("personagem-jogador-4")
+        trocarNome("nome-jogador-4")
+        trocarJogador("personagem-jogador-5")
+        trocarNome("nome-jogador-5")
 
     })
 })
