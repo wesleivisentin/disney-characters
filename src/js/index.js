@@ -162,18 +162,21 @@ const backgrounCenario = document.querySelector("#background")
 
             function music(musica){
          const audio = document.getElementById(`music-${musica}`)
-         
-         audio.pause()
          audio.play()
+         
+
+         
+         
          
          
         }
             
-            music(idSelecionado)
-            music(idSelecionado)
+            music(idSelecionado).play()
+            
 
 
         })
+        
         
    })
    
