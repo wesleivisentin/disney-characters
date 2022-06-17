@@ -122,7 +122,7 @@ const cenarios = document.querySelectorAll(".desenho")
 const idCenario = document.querySelectorAll(".selecao-de-personagens")
 const backgrounCenario = document.querySelector("#background")
 
-   cenarios.forEach((cenario)=> {
+   cenarios.forEach(cenario => {
 
         cenario.addEventListener("click", ()=> {
 
@@ -160,18 +160,18 @@ const backgrounCenario = document.querySelector("#background")
             // document.getElementById("background").style.backgroundImage = `url("../imagens/back-${idSelecionado}.jpg")`;
             
 
-            function music(musica){
-         const audio = document.getElementById(`music-${musica}`)
-         audio.play()
+        //     function music(musica){
+        //  const audio = document.getElementById(`music-${musica}`)
+        //  audio.play()
          
 
          
          
          
          
-        }
+        // }
             
-            music(idSelecionado).play()
+        //     music(idSelecionado).play()
             
 
 
