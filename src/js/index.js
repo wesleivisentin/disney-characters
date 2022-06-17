@@ -24,7 +24,7 @@ personagens.forEach((personagem) => {
             let nomeJogador1 = document.getElementById("nome-jogador-1")
             let nomeSelecionado = personagem.getAttribute("data-name")
             nomeJogador1.innerHTML = nomeSelecionado
-           
+           return
             
         }
 
@@ -35,7 +35,7 @@ personagens.forEach((personagem) => {
             let nomeJogador11 = document.getElementById("nome-jogador-11")
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
-            
+            return
            
 
         }
@@ -46,7 +46,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            
+            return
 
         }
         else if(idSelecionado === "minnie") {
@@ -56,7 +56,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            
+            return
 
         }
         else if(idSelecionado === "cinderela") {
@@ -66,7 +66,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            
+            return
 
         }
 
@@ -77,7 +77,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-           
+           return
 
         }
 
@@ -160,12 +160,17 @@ const backgrounCenario = document.querySelector("#background")
             // document.getElementById("background").style.backgroundImage = `url("../imagens/back-${idSelecionado}.jpg")`;
             
 
-
-         const audio = document.querySelector('audio')
+            function music(musica){
+         const audio = document.getElementById(`music-${musica}`)
+         
+         audio.pause()
          audio.play()
          
+         
+        }
             
-            
+            music(idSelecionado)
+            music(idSelecionado)
 
 
         })
