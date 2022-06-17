@@ -25,7 +25,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionado = personagem.getAttribute("data-name")
             nomeJogador1.innerHTML = nomeSelecionado
            
-            return
+            
         }
 
 
@@ -36,7 +36,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            return
+           
 
         }
         else if(idSelecionado === "mulher-elastico") {
@@ -46,7 +46,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            return
+            
 
         }
         else if(idSelecionado === "minnie") {
@@ -56,7 +56,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            return
+            
 
         }
         else if(idSelecionado === "cinderela") {
@@ -66,7 +66,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            return
+            
 
         }
 
@@ -77,7 +77,7 @@ personagens.forEach((personagem) => {
             let nomeSelecionadoo = personagem.getAttribute("data-name")
             nomeJogador11.innerHTML = nomeSelecionadoo
             
-            return
+           
 
         }
 
@@ -161,6 +161,8 @@ const backgrounCenario = document.querySelector("#background")
             
 
 
+         const audio = document.querySelector('audio')
+         audio.play()
          
             
             
