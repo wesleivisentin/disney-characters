@@ -1,6 +1,7 @@
 @media (max-width: 1280px) {
     .cabecalho .titulo{
         font-size: 40px;
+        -webkit-text-stroke: 3px rgb(255, 0, 21);
     }
     .selecao-de-personagem  .lista-de-personagens{
         max-width: 330px;
@@ -26,6 +27,7 @@
     }
     .cabecalho .titulo {
         font-size: 22px;
+        -webkit-text-stroke: 1px rgb(255, 0, 21);
     }
     .selecao-de-personagens .personagem-grande {
         display: none;
@@ -39,5 +41,6 @@
 @media (max-width: 360px) {
     .cabecalho .titulo {
         font-size: 19px;
+        -webkit-text-stroke: 1px rgb(255, 0, 21);
     }
 }
