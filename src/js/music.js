@@ -17,7 +17,7 @@ for (let i=0; i < 6; i++){
     botoes[i].setAttribute('data-item', i);
 }
 
-let audioTag = document.querySelector('audio');
+let audioTag = document.querySelector('.musicas-cenarios');
 
 botoes.forEach(botao => {
     botao.addEventListener('click', () => {
