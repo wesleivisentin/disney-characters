@@ -1,7 +1,7 @@
 body {
     font-family: "disney", Arial, Helvetica, sans-serif ;
     background: var(--cor-secundaria);
-    cursor: url(/src/imagens/cursor.cur), default;
+    cursor: url(../imagens/cursor.cur), default;
    
     content: '';
     
@@ -145,7 +145,7 @@ main {
     width: 30%;
     height: 160px;
     
-    cursor: url(/src/imagens/cursor2.cur), auto;
+    cursor: url(../imagens/cursor2.cur), auto;
     z-index: 2;
     border-radius: 10px;
     position: relative;
