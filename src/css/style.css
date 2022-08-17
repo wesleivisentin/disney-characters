@@ -1,7 +1,7 @@
 body {
     font-family: "disney", Arial, Helvetica, sans-serif ;
     background: var(--cor-secundaria);
-    cursor: url(/src/imagens/cursor.cur), default;
+    cursor: url(src/imagens/cursor.cur), default;
    
     content: '';
     
