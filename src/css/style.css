@@ -231,7 +231,7 @@ main {
     /* background-color: var(--cor-padrao); */
     width: 12%;
     height: 12%;
-    cursor: url(/src/imagens/cursor2.cur), auto;
+    cursor: url(../imagens/cursor2.cur), auto;
     z-index: 2;
     
     position: relative;
